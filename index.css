@@ -1,7 +1,9 @@
 
-.body{
+body{
     background-color: aquamarine;
-    display:inline-block;}
+    display:flex;
+    justify-content:space-around;
+    align-items:space-between;}
 
 .main{
 
@@ -69,6 +71,8 @@
     display:flex;
     justify-content:center;
     align-items:center;
+    max-width:350px;
+    max-height:840px;
     
     background-color:rgb(197, 127, 255);
 }
