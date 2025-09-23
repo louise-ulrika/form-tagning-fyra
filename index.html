@@ -3,17 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML5 Document</title>
+    <link rel="stylesheet" href="index.css">
+
+    <title>A first form</title>
 </head>
 <body>
-    <form>
-<input type="Your email">
-<textarea name="message" placeholder="Your email"></textarea>
-<button type="submit">submit</button>
+    <main class="main">
 
+    <form class="form" autocomplete="off">
+        <h1 class="main-title">Contact form</h1>
+        <h2 class="main-subtitle">Please contact us if you have any questions</h2>
+        <label for="name" >Name</label>
+        <input type="text" class="input" placeholder="Your full name">
+        <label for="email" class="label">Email</label>
+        <input type="email" name="e-mail" class="input" placeholder="Your email">
+        <label for="message regarding" class="label">Message regarding</label>
 
+<input type="message regarding" placeholder="Message regarding" class="input">
+<label for="message" class="label">Message</label>
+<textarea name="message" class="input" placeholder="Your message"></textarea>
+<button class="button" type="submit">submit</button>
 
-
-    </form>
+</form>
+</main>
+    
 </body>
 </html>
