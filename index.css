@@ -1,16 +1,16 @@
 
-.body {
-  margin:20px;
-  background-color: aquamarine;
-}
+.body{
+    background-color: aquamarine;
+    display:inline-block;}
 
 .main{
 
-    max-width:1200px;
+    max-width:700px;
     margin:2;
     padding:1rem;
     font-family: Arial, sans-serif;
     background-color:blueviolet;
+    display:inline-block;
 }
 .form{
     display:flex;
@@ -63,4 +63,12 @@
     font-size:1.0rem;
     cursor:pointer;
     font-family:Arial,sans-serif;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+    background-color:rgb(197, 127, 255);
 }
