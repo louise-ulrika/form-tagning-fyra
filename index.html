@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="normalize" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <title>A first form</title>
 </head>
 <body>
@@ -13,16 +13,16 @@
     <form class="form" autocomplete="off">
         <h1 class="main-title">Contact form</h1>
         <h2 class="main-subtitle">Please contact us if you have any questions</h2>
-        <label for="name" >Name</label>
-        <input type="text" class="input" placeholder="Your full name">
+        <label for="name" class="label">Name</label>
+        <input type="text" class="input" id="name" placeholder="Your full name">
         <label for="email" class="label">Email</label>
-        <input type="email" name="e-mail" class="input" placeholder="Your email">
-        <label for="message regarding" class="label">Message regarding</label>
+        <input type="email" name="e-mail" class="input" id="email" placeholder="Your email">
+        <label for="text" class="label">Message regarding</label>
 
-<input type="message regarding" placeholder="Message regarding" class="input">
-<label for="message" class="label">Message</label>
-<textarea name="message" class="input" placeholder="Your message"></textarea>
-<button class="button" type="submit">submit</button>
+         <input type="text" id="text" placeholder="text" class="input">
+        <label for="message" class="label">Message</label>
+        <textarea name="message" class="input" placeholder="Your message"></textarea>
+        <button class="button" type="submit">submit</button>
 
 </form>
 </main>
