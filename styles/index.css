@@ -2,25 +2,32 @@
 body{
     background-color: aquamarine;
     display:flex;
-    justify-content:space-around;
+    justify-content:center;
     align-items:space-between;}
 
 .main{
 
-    max-width:700px;
+    max-width:400px;
     margin:2;
     padding:1rem;
     font-family: Arial, sans-serif;
     background-color:blueviolet;
-    display:inline-block;
-}
-.form{
     display:flex;
-    justify-content:column;
+    min-height:840px;
+    display:flex;
+    justify-content:baseline;
+}
+.form:{
+    display:flex;
+    justify-content:space-around;
     flex-direction:column;
-    gap:1rem;
+    align-items:center;
+    gap:10rem;
     background-color:palevioletred;
     padding:4rem;
+    row-gap:10rem;
+     max-width:200px;
+    min-height:700px;
 }
 .main-title{
     font-size:4.0rem;
@@ -41,6 +48,7 @@ body{
         border-radius:5px;
         border:2px solid orangered;
         font-family:Arial,sans-serif;
+
     }
 
     .input{
@@ -68,11 +76,10 @@ body{
 }
 
 .container{
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    display:flex-start;
+    justify-content:space-around;
+    align-items:space-between;
     max-width:350px;
     max-height:840px;
     
-    background-color:rgb(197, 127, 255);
-}
+    background-color:rgb(197, 127, 255)
